@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # ====== Set Your Google Gemini API Key ======
-GOOGLE_API_KEY = "AIzaSyBN-7B_CjZyMIWzdP8c8t73o1gJh9ADpJA"  # Replace with your actual API key
+GOOGLE_API_KEY = ""  # Replace with your actual API key
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 cap = cv2.VideoCapture("person.mp4")
